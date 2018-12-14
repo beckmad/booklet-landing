@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "HelveticaThin";
+    src: url("https://www.avon.ru/REPSuite/static/fonts/HelveticaThin/HelveticaThin.eot");
+    src: url("https://www.avon.ru/REPSuite/static/fonts/HelveticaThin/HelveticaThin.eot?#iefix") format("embedded-opentype"), url("https://www.avon.ru/REPSuite/static/fonts/HelveticaThin/HelveticaThin.woff") format("woff"), url("https://www.avon.ru/REPSuite/static/fonts/HelveticaThin/HelveticaThin.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("https://www.avon.ru/REPSuite/static/fonts/HelveticaRegular/HelveticaRegular.eot");
+    src: url("https://www.avon.ru/REPSuite/static/fonts/HelveticaRegular/HelveticaRegular.eot?#iefix") format("embedded-opentype"), url("https://www.avon.ru/REPSuite/static/fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), url("https://www.avon.ru/REPSuite/static/fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.brochure__top {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 0 40px;
+}
+
+.brochure__headline {
+    font-family: "HelveticaThin", "HelveticaRegular", Arial, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.brochure__buttons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.brochure__link {
+    font-family: Arial, "HelveticaRegular", "HelveticaThin", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    width: 220px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 20px 0;
+    transition-property: transform;
+    transition-duration: .4s;
+}
+
+.brochure__link--main {
+    margin-right: 60px;
+}
+
+.brochure__link--copy {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+}
+
+.brochure__link:hover {
+    transform: scale(1.03);
+    transform-origin: bottom;
+}
+
+.fake-container-brochure__wall {
+    height: 700px;
+    position: relative;
+}
+
+.brochure__wall {
+    background: url("img/brosh-bg.png") no-repeat center center;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    margin-top: -700px;
+}
+
+.fake-container-brochure__catalog {
+    margin-top: 150px;
+    height: 120px;
+    position: relative;
+}
+
+.brochure__catalog {
+    position: absolute;
+    left: 0;
+    margin-top: -120px;
+    width: 100%;
+}
+
+.brochure__headline--lh {
+    line-height: 1.4;
+}
+
+.brochure__headline--subcatalog {
+    font-family: "HelveticaRegular", "HelveticaThin", sans-serif;
+    line-height: 1.4;
+}
+
+.brochure__cupboard {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 145px;
+}
+
+.brochure__book {
+    margin-bottom: 50px;
+}
+
+.brochure__shelf {
+    width: 240px;
+}
+
+.brochure__shelf-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.brochure__name {
+    font-family: "HelveticaThin", "HelveticaRegular", Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.brochure__link-shelf-top {
+    margin-bottom: 20px;
+}
+
+.brochure__whatsApp {
+    margin-bottom: -1.1%;
+    margin-right: 25px;
+}
+
+.brochure__viber {
+    margin-bottom: -1.1%;
+}
+
+.fake-container-brochure__info {
+    margin-top: 40px;
+    height: 800px;
+    position: relative;
+}
+
+.brochure__info {
+    position: absolute;
+    margin-top: -800px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.brochure__left {
+    background-image: url("img/iPhone.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 40%;
+}
+
+.brochure__right {
+    width: 40%;
+    height: 800px;
+}
+.brochure__row {
+    display: flex;
+    margin-bottom: 45px;
+}
+.brochure__row:nth-child(4) {
+    margin-bottom: 70px;
+}
+.brochure__mobile-info {
+    margin-right: 18px;
+}
+.brochure__direction {
+    font-family: "HelveticaThin", "HelveticaRegular", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.brochure__attention {
+    text-transform: uppercase;
+    color: #c90083;
+}
+
+.brochure__representative {
+    font-family: "HelveticaThin", "HelveticaRegular", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brochure__link--representative {
+    width: 90px;
+    margin-left: 18px;
+}
+/*max 951*/
+@media screen and (max-width: 951px) {
+    .brochure__top {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .brochure__headline {
+        line-height: 1.5;
+        font-size: 4.6vw;
+    }
+
+    .brochure__buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brochure__link--main {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .fake-container-brochure__wall {
+        display: none;
+    }
+
+    .brochure__wall {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .fake-container-brochure__catalog {
+        display: none;
+    }
+
+    .brochure__catalog {
+        position: relative;
+        margin-top: 0;
+    }
+
+    .brochure__cupboard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brochure__shelf {
+        margin-bottom: 30px;
+    }
+    .fake-container-brochure__info {
+        display: none;
+    }
+    .brochure__info {
+        position: relative;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .brochure__left {
+        background-position-x: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+/*max 600*/
+@media screen and (max-width: 600px) {
+    .brochure__headline {
+        line-height: 1.5;
+        font-size: 7vw;
+    }
+}
